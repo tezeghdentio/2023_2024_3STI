@@ -24,7 +24,7 @@ function verif()
     {   
         alert("verifier votre nom ou prenom");
     }
-    else if((document.getElementById("homme").checked==false)&&(document.getElementById("femme").checked==false))
+    else if((document.getElementById("homme").checked==false)&&(!document.getElementById("femme").checked))
             {
                 alert("veuillez choisir un sexe");
             }
